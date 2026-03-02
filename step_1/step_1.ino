@@ -46,7 +46,7 @@ void loop() {
   if (distance <= THRESHOLD_CM && !isOpen) {
     myServo.write(90);      // ouvre
     isOpen = true;
-    delay(1500);            // reste ouvert 3s
+    delay(1000);            // reste ouvert 3s
   }
 
   // Refermer quand la main s’éloigne
