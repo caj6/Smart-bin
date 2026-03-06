@@ -19,7 +19,7 @@ void setup() {
   pinMode(echoPin, INPUT);
 
   myServo.attach(servoPin);
-  myServo.write(0);  // fermé au départ
+  myServo.write(0);  // fermé auc:\Users\junio\Downloads\message.txt départ
 }
 
 int readDistanceCm() {
